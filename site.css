@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', Arial;
+  color: #454545;
+  font-size: 16px;
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+footer {
+  margin-top: 5em;
+  display: inline-flex;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #000;
+  }
+
+  html body {
+    color: #d9d9d9;
+  }
+
+  html a {
+    color: #9ae1ff;
+  }
+
+  html a:visited {
+    color: #fbd6e8;
+  }
+}
+
